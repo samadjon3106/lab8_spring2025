@@ -8,7 +8,6 @@
 using namespace std;
 template <typename T>
 class List {
-    private:
     class Node {
     public:
         T val;
@@ -19,7 +18,6 @@ class List {
             next=nullptr;
             prev=nullptr;
         }
-
     };
     Node* head;
     Node* tail;
